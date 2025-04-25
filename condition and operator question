@@ -1,0 +1,96 @@
+Operators & Conditionals
+
+8) Use if...else to check if a number is positive or negative.
+
+let a=-10;
+if( a>=0 ){
+    console.log("number is positive");
+}
+
+else{
+    console.log("number is negaive");
+}
+
+----------------------------------------------------------------------------
+
+9) Use switch to return the day of the week based on a number (0-6).
+
+let dayNumber = 3; // Change this value to test different days  
+let day; // Variable to hold the result  
+
+switch (dayNumber) {  
+    case 0:  
+        day = "Sunday";  
+        break;  
+    case 1:  
+        day = "Monday";  
+        break;  
+    case 2:  
+        day = "Tuesday";  
+        break;  
+    case 3:  
+        day = "Wednesday";  
+        break;  
+    case 4:  
+        day = "Thursday";  
+        break;  
+    case 5:  
+        day = "Friday";  
+        break;  
+    case 6:  
+        day = "Saturday";  
+        break;  
+    default:  
+        day = "Invalid day number; please use a number between 0 and 6.";  
+        break;  
+}  
+
+// Output the result  
+console.log(day);  
+----------------------------------------------------------------------------------
+
+10) Compare two strings and print if they are equal.
+
+let a="10";
+let b="10";
+
+if(a===b){
+    console.log("a and b is equal");
+}
+else{
+    console.log("a and b is not equal");
+}
+----------------------------------------------------------------------------------
+
+
+11) Check if a number is divisible by 3 and 5.
+
+let a = 60;  
+
+if (a % 3 === 0 && a % 5 === 0) {  
+    console.log(a,"number is divisble by 3 and 5");  
+} else {  
+    console.log("cannot find number");  
+}  
+-------------------------------------------------------------------------------------
+
+14) Use ternary operator to find the greater of two numbers.
+
+let a=10;
+let b=20;
+
+const greater=(a>b) ? a:b;
+console.log("the greater number is",greater);
+----------------------------------------------------------------------
+
+13) Check if a number is between 1 and 100.
+
+let a=100;
+
+if(a>0 && a<100){
+    console.log(a,"is between 1 and 100")
+}
+else{
+    console.log("cannot find number between");
+}
+------------------------------------------------------------------------------
