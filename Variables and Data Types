@@ -1,1 +1,39 @@
 
+
+----------------------------------------------------------------------
+
+a) Swap the values of two variables.
+b) Check the type of a variable using typeof.
+
+let a=10;
+let b="20";
+let temp=a;
+a=b;
+b=temp;
+console.log(typeof(a));
+console.log(typeof(b);
+
+----------------------------------------------------------------------------------------
+
+c) Convert a number  to a string.
+d) Convert a string number "123" to a number.
+
+let a="10";
+let d=20;
+
+let b=Number(a);
+let c=String(d);
+console.log(typeof b);
+console.log(typeof c)
+----------------------------------------------------------------------------
+e)Check if a variable is null or undefined.
+let a;
+
+if(a=== null || a === undefined){
+    console.log("The variable is either null or undefined.");  
+} else {  
+    console.log("The variable is defined and not null.");  
+} 
+
+
+
